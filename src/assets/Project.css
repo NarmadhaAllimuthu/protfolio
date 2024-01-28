@@ -1,0 +1,59 @@
+
+.project-cointainer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project-bg{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+.project-card{
+    margin: 30px;
+    background-color: #f2f2f2;
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.75px;
+    color: 	 #008000;
+}
+
+.card-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 40px;
+}
+
+
+.github-btn:hover{
+    background-color: 	 #4ddbff;
+
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-cointainer{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .project-card{
+        margin: auto;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
