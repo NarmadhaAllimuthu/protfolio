@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { MDBBtn, MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-kit";
+import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-kit";
 import { Link } from 'react-scroll';
 import "../assets/Footer.css"
 
@@ -10,66 +10,7 @@ function Footer() {
         <>
 
             <MDBFooter className='text-center text-lg-start text-muted footer-container '>
-                {/* <section className='mb-4 footer-icons'>
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#3b5998' }}
-          href='https://www.facebook.com/profile.php?id=100040037795176'
-          role='button'
-        >
-          <MDBIcon fab icon='facebook-f' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#55acee' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='twitter' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#dd4b39' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='google' />
-        </MDBBtn>
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#ac2bac' }}
-          href='https://www.instagram.com/dineshdhiney/'
-          role='button'
-        >
-          <MDBIcon fab icon='instagram' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#0082ca' }}
-          href='https://www.linkedin.com/in/dinesh-tsd-fire-coder/'
-          role='button'
-        >
-          <MDBIcon fab icon='linkedin-in' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#333333' }}
-          href='https://github.com/Dinesh-TSD'
-          role='button'
-        >
-          <MDBIcon fab icon='github' />
-        </MDBBtn>
-      </section> */}
+        
 
                 <section className=''>
                     <MDBContainer className='text-center text-md-start mt-5'>
