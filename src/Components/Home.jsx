@@ -16,13 +16,13 @@ function Home() {
         <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlQV4NlJVZ6uq_cOHke15rsGpTPLQa_xI5d4XcvEeh2RRu7cof" alt="" className="hero-pic" />
       </div>
       <div className="col-xl-6 col-lg-6 left">
-        <h4>Hi I Am</h4>
+        <h4>Hi I am</h4>
         <h1>Narmadha Allimuthu</h1>
 
         <div className="hero-name">
           <span className="primary-text">
             <h2 className="role">
-              I Am a {" "}
+              I am a {" "}
               <span className="role-span">
                 <Typewriter
                   words={[
@@ -43,11 +43,7 @@ function Home() {
         </div>
 
         <div className="cv_buttons">
-          {/* <div className="col-xl-6 col-lg-6 ">
-            <a href="contact" className="btn hire-btn">
-              Contact Me
-            </a>
-          </div> */}
+         
           <div className="col-xl-6 col-lg-6 ">
             <a href="./images/Resume.pdf" download className="btn hire-btn">
               Download Resume <i class="fa-solid fa-download"></i>
