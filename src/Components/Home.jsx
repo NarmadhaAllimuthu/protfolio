@@ -59,7 +59,7 @@ function Home() {
 
               <MDBBtn
                 floating
-                className="m-1"
+                className="m-1 contact-link"
                 style={{ backgroundColor: "#0082ca" }}
                 href="https://www.linkedin.com/in/narmadha-allimuthu-an/"
                 target='_blank'
@@ -70,13 +70,24 @@ function Home() {
 
               <MDBBtn
                 floating
-                className="m-1"
+                className="m-1 contact-link"
                 style={{ backgroundColor: "#333333" }}
                 href="https://github.com/NarmadhaAllimuthu"
                 target='_blank'
                 role="button"
               >
                 <MDBIcon fab icon="github" />
+              </MDBBtn>
+              <MDBBtn
+                floating
+                className="m-1 contact-link"
+                style={{ backgroundColor: "#0082ca" }}
+                href="mailto:narmadhaallimuthu006@gmail.com"
+                target='_blank'
+                role="button"
+              >
+                 <i class="fa-solid fa-envelope"></i>
+                {/* <MDBIcon fab icon="envelope" /> */}
               </MDBBtn>
             </section>
           </MDBContainer>

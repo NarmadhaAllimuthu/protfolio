@@ -16,8 +16,8 @@ function About() {
       
 
         <div className="col-lg-7 col-sm-12">
-          <div className="about-content">
-            <div className="about-section">
+          <div className="about-content ms-5 ">
+            <div className="about-section mt-3">
               <h4 className='text-center'>Profile</h4>
               <p>
               An accomplished MERN Stack Developer with a passion for creating seamless user experiences. With a solid foundation in MongoDB, Express.js, React, and Node.js, I specialize in crafting visually captivating and intuitively navigable full-stack applications. Leveraging my expertise in responsive design, RESTful APIs.
@@ -36,7 +36,9 @@ function About() {
           </div>
         </div>
         <div className="col-lg-4 col-sm-12 hero-bg">
-          <img src="https://img.freepik.com/premium-vector/young-cheerful-woman-with-long-hair-casual-style-clothes-pointing-away-isolated-vector_126609-674.jpg" alt="" className="about-pic" />
+          <img 
+          src="https://img.freepik.com/premium-vector/young-cheerful-woman-with-long-hair-casual-style-clothes-pointing-away-isolated-vector_126609-674.jpg" 
+          alt="" className="about-pic" />
         </div>
       </div>
     </div>

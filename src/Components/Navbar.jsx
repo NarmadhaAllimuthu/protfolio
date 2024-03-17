@@ -4,6 +4,10 @@ import { Link } from 'react-scroll'
 import "../assets/Navbar.css";
 
 function Navbar() {
+
+
+  
+
   return (
   
     <nav className="navbar navbar-expand-lg  navbar-dark bg-dark  fixed-top">
@@ -21,7 +25,8 @@ function Navbar() {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <Link to="hero" className="nav-link nav-list " >Home</Link>
+            <Link to="hero" 
+            className="nav-link nav-list " >Home</Link>
           </li>
           <li className="nav-item">
             <Link to="about" className="nav-link nav-list" >About</Link>

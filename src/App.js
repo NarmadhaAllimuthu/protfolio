@@ -6,6 +6,7 @@ import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Project from "./Components/Project";
+import { Router } from "react-router-dom";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   
   return (
     <>
+    {/* <Router> */}
     <Navbar/>
     <Home/>
     <About/>
@@ -20,6 +22,7 @@ function App() {
     <Project/>
     <Contact/>
     <Footer/>
+    {/* </Router> */}
     </>
   );
 }

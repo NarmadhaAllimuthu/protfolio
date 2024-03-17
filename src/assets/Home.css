@@ -47,8 +47,9 @@
 .left h1 {
     font-size: 50px;
     font-weight: 700;
-    color: rgb(245, 10, 147);
+    color: rgb(2, 158, 10);
 }
+
 
 .left h4 {
     color: rgba(10, 10, 10, 0.963);
@@ -71,8 +72,14 @@
 }
 
 .hire-btn:hover {
-    background-color: rgb(11, 239, 247) !important;
+    background-color: rgb(64, 122, 249) !important;
     color: rgb(0, 0, 0) !important;
+}
+
+.contact-link:active{
+    height: 40px;
+    width: 40px;
+
 }
 
 /* Responsive adjustments */
