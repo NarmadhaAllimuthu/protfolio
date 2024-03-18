@@ -14,10 +14,14 @@ function Navbar() {
   <div className="container-fluid">
  
     <header className="navbar-brand mx-4" >Narmadha Allimuthu</header>
-    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaslightNavbar" aria-controls="offcanvaslightNavbar">
+    <button className="navbar-toggler" type="button"
+     data-bs-toggle="offcanvas" 
+    data-bs-target="#offcanvaslightNavbar" 
+    aria-controls="offcanvaslightNavbar"
+    aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="offcanvas offcanvas-end " tabindex="-1" id="offcanvaslightNavbar" aria-labelledby="offcanvaslightNavbarLabel">
+    <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvaslightNavbar" aria-labelledby="offcanvaslightNavbarLabel">
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvaslightNavbarLabel">MERN Stack Developer</h5>
         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -35,6 +39,7 @@ function Navbar() {
             <Link to="skills" className="nav-link nav-list" >Skills</Link>
           </li>
           <li className="nav-item">
+
             <Link to="project" className="nav-link nav-list" >Projects</Link>
           </li>
           {/* <li className="nav-item">

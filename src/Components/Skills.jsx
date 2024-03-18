@@ -32,11 +32,11 @@ function Skills() {
         </div>
         <div className="col-xl-2 col-3 skill-card">
           <FontAwesomeIcon icon={faJs} className="skill-icon-js" />
-          <h4 className='ms-4 mb-4 topic'>JAVASCRIPT</h4>
+          <h4 className='ms-5 mb-4 topic'>JS</h4>
         </div>
         <div className="col-xl-2 col-3 skill-card">
           <FontAwesomeIcon icon={faReact} className="skill-icon-rjs" />
-          <h4 className='ms-4 mb-4 topic'>REACT JS</h4>
+          <h4 className='ms-3 mb-4 topic'>REACT JS</h4>
         </div>
         <div className="col-xl-2 col-3 skill-card">
           <FontAwesomeIcon icon={faNodeJs} className="skill-icon-njs" />
