@@ -13,11 +13,13 @@ function Home() {
     <div className="row">
    
       <div className="col-xl-6 col-lg-6 right">
-        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlQV4NlJVZ6uq_cOHke15rsGpTPLQa_xI5d4XcvEeh2RRu7cof" alt="" className="hero-pic" />
+        <img 
+        src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQlQV4NlJVZ6uq_cOHke15rsGpTPLQa_xI5d4XcvEeh2RRu7cof"
+         alt="" className="hero-pic" />
       </div>
       <div className="col-xl-6 col-lg-6 left">
-        <h4>Hi I am</h4>
-        <h1>Narmadha Allimuthu</h1>
+        <h4>Hi, I'm</h4>
+        <h1>Narmadha <span className='secondword'>Allimuthu</span></h1>
 
         <div className="hero-name">
           <span className="primary-text">

@@ -7,7 +7,8 @@
 
 .footer-container{
     /* background: linear-gradient(rgba(10, 249, 101, 0.333),rgba(88, 253, 108, 0.274),rgba(61, 244, 128, 0.468)); */
-    background: linear-gradient(rgba(64, 237, 33, 0.333),rgba(51, 247, 51, 0.274),rgba(51, 248, 51, 0.468));
+    background:  
+ #4dffff;
    
     color: black !important;
 }

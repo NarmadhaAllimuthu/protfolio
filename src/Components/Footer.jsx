@@ -15,7 +15,7 @@ function Footer() {
                 <section className=''>
                     <MDBContainer className='text-center text-md-start mt-5'>
                         <MDBRow className='mt-3'>
-                            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4  text-muted mt-4 '>
+                            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4  mt-4 '>
                                 <h6 className='text-uppercase fw-bold mb-4'>
                                     Narmadha Allimuthu
                                 </h6>
@@ -37,13 +37,13 @@ function Footer() {
                             </MDBCol>
                             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-3 mt-5 text-center' >
 
-                                <Link to="project" className="footer-content " >projects</Link>
+                                <Link to="project" className="footer-content " >Projects</Link>
 
 
 
                             </MDBCol>
 
-                            <MDBCol md='3' lg='3' xl='3' className='mx-auto mb-md-0 mb-4  text-muted mt-5'>
+                            <MDBCol md='3' lg='3' xl='3' className='mx-auto mb-md-0 mb-4   mt-5'>
 
 
                                 <p >

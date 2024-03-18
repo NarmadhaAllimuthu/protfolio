@@ -12,7 +12,7 @@
 }
 .about-section p{
     box-shadow: 2px 2px 20px 2px rgba(255, 255, 255, 0.308);
-    background: linear-gradient(rgba(253, 252, 255, 0.514),rgba(255, 255, 255, 0.683),rgb(23, 247, 116));
+    background: linear-gradient(rgba(253, 252, 255, 0.514),rgba(255, 255, 255, 0.683),rgb(107, 201, 224));
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
@@ -29,8 +29,11 @@
     margin: 20px;
 }
 .about-heading h1{
-    color: rgb(9, 9, 9);
+    color: rgb(249, 246, 246);
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-size: 50px;
 }
 .hero-bg{
     display: flex;
@@ -54,8 +57,9 @@
   }
 
 .about-section h4{
-    background-color: rgb(108, 216, 109);
+    background-color: rgb(153, 150, 148);
     color: black;
+    padding: 4px;
 }
 
 
