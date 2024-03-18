@@ -24,8 +24,8 @@
 
 .hero-pic {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 320px;
 }
 
 .role{
@@ -34,25 +34,37 @@
     margin: auto;
     font-weight: normal;
 }
+.role-span::first-letter {
+    color: #7efa11; /* Color for the first letter */
+}
+
 .role-span{
-    color:  #ff5500; 
+    color:  
+
+    #ffff00; 
     font-weight: bold;
 }
 .left h2 {
     font-size: 30px;
     font-weight: 700;
-    color: rgba(14, 14, 14, 0.957);
+    color: rgba(250, 248, 248, 0.957);
 }
 
 .left h1 {
     font-size: 50px;
     font-weight: 700;
-    color: rgb(2, 158, 10);
+    color: rgb(243, 249, 244);
 }
 
+/* .left h1::first-letter{
+   color: rgb(232, 210, 13);
+}
 
+.secondword::first-letter{
+    color: rgb(232, 210, 13); 
+} */
 .left h4 {
-    color: rgba(10, 10, 10, 0.963);
+    color: rgba(247, 244, 244, 0.998);
     font-size: 30px;
     font-weight: 600;
 }
@@ -64,15 +76,15 @@
 }
 
 .hire-btn {
-    background-color:  #202ae0 !important;
-    color: white !important;
+    background-color: #4dffff !important;
+    color:black !important;
     width: 200px;
     height: 40px;
     margin: 10px;
 }
 
 .hire-btn:hover {
-    background-color: rgb(64, 122, 249) !important;
+    background-color: 	 #ffff33 !important;
     color: rgb(0, 0, 0) !important;
 }
 

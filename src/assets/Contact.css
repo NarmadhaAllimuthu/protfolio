@@ -7,12 +7,25 @@
 .text-right{
     border-radius: 5px;
     padding: 10px;
-    background: linear-gradient(rgb(103, 250, 98),rgba(255, 255, 255, 0.605),rgb(78, 252, 104));
+   background: linear-gradient(rgba(205, 197, 221, 0.514),rgba(218, 201, 201, 0.683),rgb(182, 197, 201));
+    /* background: linear-gradient(rgba(123, 134, 156, 0.333),rgba(105, 127, 174, 0.274),rgba(73, 85, 176, 0.468)); */
 }
+
+/* .text-right:hover{
+    box-shadow:10px 10px rgb(248, 249, 248), 0 0 0 2px rgb(254, 255, 253); ;
+    background-color: inherit;
+    transform: translate(-10px, -20px);
+} */
+
 .left{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-link{
+    color:black;
+    font-size: 30px;
 }
 
 .text-muted{
@@ -20,6 +33,15 @@
     margin: 20px;
     letter-spacing: 0.75px;
     word-spacing: 2px;
+}
+
+
+.text-para{
+    color:black;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* line-gap-override: 2px; */
 }
 
 /* Responsive adjustments */
@@ -49,12 +71,21 @@
 .text-muted{
     margin: 0;
 }
-
+/* .fa-linkedin{
+    width: 10px;
+    height: 10px;
+} */
 .h1{
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-size: 50px;
 }
 
-
+.contact-linkName{
+    color: black;
+}
 
 
 

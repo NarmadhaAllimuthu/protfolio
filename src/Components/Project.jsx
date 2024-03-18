@@ -12,7 +12,7 @@ function Project() {
                     <div className="h1">
                     <h1> Projects</h1>
                     </div>
-                    <p className='text-muted'>Here are some of my recent projects</p>
+                    <p className='text'>Here are some of my recent projects</p>
                 </div>
 
                 <div className="row project-bg">

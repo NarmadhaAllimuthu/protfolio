@@ -14,25 +14,40 @@
     background-color: #f2f2f2;
     transition: transform 0.3s ease-in-out;
 }
-
+/* 
 .project-card:hover{
     box-shadow: 10px 10px rgb(24, 142, 3);
     color: #f2f2f2;
     background-color: rgb(36, 160, 59);
     transform: translate(-10px, -20px); 
+} */
+
+.project-card:hover {
+    box-shadow: 10px 10px rgb(248, 249, 248), 0 0 0 2px rgb(254, 255, 253); /* Add border as box-shadow */
+    background-color: inherit; /* Keep the background-color as it is */
+    transform: translate(-10px, -20px);
+    color: white;
 }
 
+.card-title:hover{
+    color: azure;
+}
 .card-title{
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0.75px;
-    color: 	 #008000;
+    color: 	 #660066
 }
 
 .card-text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-indent: 40px;
 }
-
+.text{
+    color: wheat;
+    letter-spacing: 0.75px;
+    word-spacing: 1px;
+    font-size: 20px;
+}
 
 .github-btn:hover{
     background-color: 	 #09b2dc;
