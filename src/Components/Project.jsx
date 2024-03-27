@@ -25,6 +25,7 @@ function Project() {
                 <a href='https://github.com/NarmadhaAllimuthu/inventory-frontend' target='_blank'>
                   <button type="button" class="btn btn-primary github-btn">Github <i class="fa-solid fa-arrow-right"></i></button>
                 </a>
+                
                 <a href='https://starlit-melomakarona-65e6c6.netlify.app/' target='_blank'>
                   <button type='button' className='btn btn-danger  ms-5'>Live Demo
                     <i class="fa-solid fa-arrow-right"></i></button>
