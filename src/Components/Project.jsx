@@ -96,7 +96,7 @@ function Project() {
               <img src='./images/shop.png' className="card-img-top" alt="project image" />
               <div className="card-body">
                 <h5 className="card-title  mt-3 mb-4">Shop Cart</h5>
-                <p className="card-text">E-commerce Application: Full responsive and scalability e-commerce site with React and redux including adding products to cart and quantity changes.
+                <p className="card-text">E-commerce Application: Full responsive and scalability e-commerce site with React and redux including adding products to cart and quantity changes. Also Razorpay payment gateway used for buying materials . 
                 </p>
                 <a href="https://github.com/NarmadhaAllimuthu/Day-32-redux-cart-task" target='_blank'>
                   <button type="button" class="btn btn-primary github-btn ml-3 ">Github <i class="fa-solid fa-arrow-right"></i></button>
