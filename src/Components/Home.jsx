@@ -43,6 +43,7 @@ function Home() {
             </h2>
           </span>
         </div>
+        
 
         <div className="cv_buttons">
          
@@ -52,7 +53,7 @@ function Home() {
             </a>
           </div>
         </div>
-        
+
         <MDBFooter className=" text-center text-white">
           <MDBContainer className="p-4 pb-0">
             <section className="mb-4">
